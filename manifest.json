@@ -1,0 +1,33 @@
+{
+  "author": "igorlogius",
+  "browser_action": {
+  },
+  "background": {
+	"scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "js": [
+        "content-script.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ],
+  "description": "",
+  "icons": {
+  },
+  "manifest_version": 2,
+  "name": "setFocus",
+  "options_ui": {
+    "open_in_tab": true,
+    "page": "options.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "version": "1.4.8"
+}
