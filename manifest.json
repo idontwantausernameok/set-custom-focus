@@ -16,7 +16,7 @@
       ]
     }
   ],
-  "description": "",
+  "description": "set the focus to any user desired html element",
   "icons": {
 	"128": "icon.png"
   },
@@ -30,5 +30,5 @@
     "activeTab",
     "storage"
   ],
-  "version": "0.1.1"
+  "version": "0.1.2"
 }

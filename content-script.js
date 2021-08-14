@@ -1,4 +1,3 @@
-
 (async () => {
 
 	if (typeof window.setfocus_hasRun !== 'undefined'){
@@ -42,11 +41,11 @@
 		if ( selector.code === '' ) { return; }
 
 		try {
-			setTimeout(function() {
+			setTimeout( () => {
 				const item = document.querySelector(selector.code);
-					if( typeof item.focus === 'function') {
-						item.focus(); // click item 
-					}
+				if( item && typeof item.focus === 'function') {
+					item.focus(); // click item 
+				}
 			}, selector.delay || 3000); // wait delay
 		}catch(e){
 			console.error(e);	
@@ -54,3 +53,4 @@
 	});
 
 })();
+
