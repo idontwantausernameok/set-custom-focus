@@ -21,7 +21,7 @@
 	"128": "icon.png"
   },
   "manifest_version": 2,
-  "name": "setFocus",
+  "name": "set-custom-focus",
   "options_ui": {
     "open_in_tab": true,
     "page": "options.html"
@@ -30,5 +30,5 @@
     "activeTab",
     "storage"
   ],
-  "version": "0.1.2"
+  "version": "1.1.2"
 }

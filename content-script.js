@@ -1,10 +1,5 @@
 (async () => {
 
-	if (typeof window.setfocus_hasRun !== 'undefined'){
-		return;
-	}
-	window.setfocus_hasRun = true;
-
 	let store = {};
 
 	try {
